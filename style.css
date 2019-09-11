@@ -1,0 +1,100 @@
+.social-links:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+body {
+ 	text-align:center;
+ 	font-family: 'Gayathri', sans-serif;
+ 	background-image: url(image/montagne.jpg); 
+ 	background-size:cover;
+}
+
+h1 {
+	color: #04B4AE;
+	font-size: 34px;
+	text-decoration: underline;
+	text-shadow: 1px 1px black;
+	}
+
+h2 {
+	color:#04B4AE;
+	font-size: 24px;
+	text-decoration: underline;
+	text-shadow: 2px 1px black;
+}
+
+p {
+	color: #000000; 
+	font-size: 20px;
+	text-shadow: 1px 1px #04B4AE;
+}
+
+.card {
+	background-color: #3720FF;
+	margin:30px auto;
+	width: 400px;
+	border-radius: 7px;
+	padding: 40px;
+	border: 2px solid #04B4AE;
+}
+
+#pdp {
+	border-radius: 50%;
+	width: 186px;
+	border: 2px solid #04B4AE;
+	transition: all 0.5s;
+}
+
+#pdp:hover {
+	border-radius: 50px;
+	width: 250px; 
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;	
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+	text-shadow: 1px 1px #04B4AE; 
+}
+
+.list-inline li a:hover {
+	color: #04B4AE;
+	text-shadow: 1px 1px #3720FF;
+}
+
+.list-inline a {
+	text-decoration: none;
+	font-size: 40px;
+}
+
+.list-inline li a {
+	color: #3720FF;
+	text-shadow: 1px 1px #04B4AE;
+}
+
+
